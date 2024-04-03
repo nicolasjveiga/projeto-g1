@@ -1,6 +1,6 @@
 # projeto-g1
 
-## Protótipo: https://www.figma.com/file/Dx9Hw083orFocfhJSN6NQ5/Untitled?type=design&node-id=3%3A3&mode=design&t=71iKM0vAPhx9hNxE-1
+## Protótipo: https://www.figma.com/file/Dx9Hw083orFocfhJSN6NQ5/projeto-g1?type=design&node-id=3%3A2&mode=design&t=Y7wINZVrzmiRCVIp-1
 
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
