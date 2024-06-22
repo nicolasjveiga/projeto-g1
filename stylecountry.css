@@ -1,0 +1,34 @@
+.nav-wrapper .right li a{
+    display: flex;
+    align-items: center;
+}
+.nav-wrapper .right li a .material-icons{
+    margin-right: 5px;
+}
+
+#news-container .card{
+    margin-bottom: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#news-container .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    height: auto;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    
+}
+#news-container .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
