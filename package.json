@@ -1,0 +1,26 @@
+{
+  "name": "g2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build:parcel": "parcel build index.html --public-url /g2",
+    "build": "npm run clean:windows && npm run build:parcel",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist",
+    "clean:linux": "rm -rf dist/",
+    "clean:windows": "rd /s/q dist"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasjveiga/projeto-g1"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0"
+  }
+}

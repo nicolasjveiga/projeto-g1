@@ -1,0 +1,7 @@
+$(document).ready(function(){$("#cep").mask("00000-000"),$("#cadastroForm").on("submit",function(i){i.preventDefault();let e=$("#nome").val(),n=new t(e,$("#email").val(),$("#idade").val(),$("#cep").val());$("#dados").html(`
+            <p><strong>Nome:</strong> ${n.nome}</p>
+            <p><strong>E-mail:</strong> ${n.email}</p>
+            <p><strong>Idade:</strong> ${n.idade}</p>
+            <p><strong>CEP:</strong> ${n.cep}</p>
+        `).hide().fadeIn(1e3),new ReportService().saveLocal(n),xhr.send(JSON.stringify(n))}),$("#limpar").on("click",function(){$("input").val(""),$("#dados").html("")}),$("#nome").on("invalid",i),$("#email").on("invalid",e),$("#idade").on("invalid",n),$("#cep").on("invalid",o)});class t{constructor(t,i,e,n){this.nome=t,this.email=i,this.idade=e,this.cep=n}}function i(){let t=document.getElementById("nome");return t.validity.valueMissing?(t.setCustomValidity("O campo é obrigatório"),!1):(t.setCustomValidity(""),!0)}function e(){let t=document.getElementById("email");return t.validity.valueMissing?(t.setCustomValidity("O campo é obrigatório"),!1):(t.setCustomValidity(""),!0)}function n(){let t=document.getElementById("idade");return t.validity.valueMissing?(t.setCustomValidity("O campo é obrigatório"),!1):(t.setCustomValidity(""),!0)}function o(){let t=document.getElementById("cep");return t.validity.valueMissing?(t.setCustomValidity("O campo é obrigatório"),!1):t.validity.patternMismatch?(t.setCustomValidity("Não é um CEP válido"),!1):(t.setCustomValidity(""),!0)}
+//# sourceMappingURL=index.2b202c80.js.map
