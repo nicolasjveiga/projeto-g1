@@ -2,6 +2,8 @@
 
 ## Protótipo: https://www.figma.com/file/Dx9Hw083orFocfhJSN6NQ5/projeto-g1?type=design&node-id=3%3A2&mode=design&t=Y7wINZVrzmiRCVIp-1
 
+## Link do vídeo: https://youtu.be/sAxRjSYaXz4?feature=shared
+
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
